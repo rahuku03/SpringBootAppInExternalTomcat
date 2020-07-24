@@ -3,6 +3,6 @@ node{
      git 'https://github.com/rahuku03/SpringBootAppInExternalTomcat'
      }
      stage('Compile-Package'){
-     sh 'mvn package'
+     bat 'mvn package'
      }
 }
